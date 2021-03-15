@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA326F9325FFDE9100876279 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA326F9225FFDE9100876279 /* AppDelegate.swift */; };
+		FA326F9525FFDE9100876279 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA326F9425FFDE9100876279 /* SceneDelegate.swift */; };
+		FA326F9725FFDE9100876279 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA326F9625FFDE9100876279 /* ContentView.swift */; };
+		FA326F9925FFDE9300876279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA326F9825FFDE9300876279 /* Assets.xcassets */; };
+		FA326F9C25FFDE9300876279 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA326F9B25FFDE9300876279 /* Preview Assets.xcassets */; };
+		FA326F9F25FFDE9300876279 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA326F9D25FFDE9300876279 /* LaunchScreen.storyboard */; };
+		FA326FAA25FFDE9400876279 /* HoneymoonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA326FA925FFDE9400876279 /* HoneymoonTests.swift */; };
+		FA326FB525FFDE9400876279 /* HoneymoonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA326FB425FFDE9400876279 /* HoneymoonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA326FA625FFDE9400876279 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA326F8725FFDE9100876279 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA326F8E25FFDE9100876279;
+			remoteInfo = Honeymoon;
+		};
+		FA326FB125FFDE9400876279 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA326F8725FFDE9100876279 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA326F8E25FFDE9100876279;
+			remoteInfo = Honeymoon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA326F8F25FFDE9100876279 /* Honeymoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Honeymoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA326F9225FFDE9100876279 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA326F9425FFDE9100876279 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA326F9625FFDE9100876279 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA326F9825FFDE9300876279 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA326F9B25FFDE9300876279 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA326F9E25FFDE9300876279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA326FA025FFDE9300876279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA326FA525FFDE9400876279 /* HoneymoonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoneymoonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA326FA925FFDE9400876279 /* HoneymoonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonTests.swift; sourceTree = "<group>"; };
+		FA326FAB25FFDE9400876279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA326FB025FFDE9400876279 /* HoneymoonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoneymoonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA326FB425FFDE9400876279 /* HoneymoonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonUITests.swift; sourceTree = "<group>"; };
+		FA326FB625FFDE9400876279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA326F8C25FFDE9100876279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA326FA225FFDE9400876279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA326FAD25FFDE9400876279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA326F8625FFDE9100876279 = {
+			isa = PBXGroup;
+			children = (
+				FA326F9125FFDE9100876279 /* Honeymoon */,
+				FA326FA825FFDE9400876279 /* HoneymoonTests */,
+				FA326FB325FFDE9400876279 /* HoneymoonUITests */,
+				FA326F9025FFDE9100876279 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA326F9025FFDE9100876279 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA326F8F25FFDE9100876279 /* Honeymoon.app */,
+				FA326FA525FFDE9400876279 /* HoneymoonTests.xctest */,
+				FA326FB025FFDE9400876279 /* HoneymoonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA326F9125FFDE9100876279 /* Honeymoon */ = {
+			isa = PBXGroup;
+			children = (
+				FA326F9225FFDE9100876279 /* AppDelegate.swift */,
+				FA326F9425FFDE9100876279 /* SceneDelegate.swift */,
+				FA326F9625FFDE9100876279 /* ContentView.swift */,
+				FA326F9825FFDE9300876279 /* Assets.xcassets */,
+				FA326F9D25FFDE9300876279 /* LaunchScreen.storyboard */,
+				FA326FA025FFDE9300876279 /* Info.plist */,
+				FA326F9A25FFDE9300876279 /* Preview Content */,
+			);
+			path = Honeymoon;
+			sourceTree = "<group>";
+		};
+		FA326F9A25FFDE9300876279 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA326F9B25FFDE9300876279 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA326FA825FFDE9400876279 /* HoneymoonTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA326FA925FFDE9400876279 /* HoneymoonTests.swift */,
+				FA326FAB25FFDE9400876279 /* Info.plist */,
+			);
+			path = HoneymoonTests;
+			sourceTree = "<group>";
+		};
+		FA326FB325FFDE9400876279 /* HoneymoonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA326FB425FFDE9400876279 /* HoneymoonUITests.swift */,
+				FA326FB625FFDE9400876279 /* Info.plist */,
+			);
+			path = HoneymoonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA326F8E25FFDE9100876279 /* Honeymoon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA326FB925FFDE9400876279 /* Build configuration list for PBXNativeTarget "Honeymoon" */;
+			buildPhases = (
+				FA326F8B25FFDE9100876279 /* Sources */,
+				FA326F8C25FFDE9100876279 /* Frameworks */,
+				FA326F8D25FFDE9100876279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Honeymoon;
+			productName = Honeymoon;
+			productReference = FA326F8F25FFDE9100876279 /* Honeymoon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA326FA425FFDE9400876279 /* HoneymoonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA326FBC25FFDE9400876279 /* Build configuration list for PBXNativeTarget "HoneymoonTests" */;
+			buildPhases = (
+				FA326FA125FFDE9400876279 /* Sources */,
+				FA326FA225FFDE9400876279 /* Frameworks */,
+				FA326FA325FFDE9400876279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA326FA725FFDE9400876279 /* PBXTargetDependency */,
+			);
+			name = HoneymoonTests;
+			productName = HoneymoonTests;
+			productReference = FA326FA525FFDE9400876279 /* HoneymoonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA326FAF25FFDE9400876279 /* HoneymoonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA326FBF25FFDE9400876279 /* Build configuration list for PBXNativeTarget "HoneymoonUITests" */;
+			buildPhases = (
+				FA326FAC25FFDE9400876279 /* Sources */,
+				FA326FAD25FFDE9400876279 /* Frameworks */,
+				FA326FAE25FFDE9400876279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA326FB225FFDE9400876279 /* PBXTargetDependency */,
+			);
+			name = HoneymoonUITests;
+			productName = HoneymoonUITests;
+			productReference = FA326FB025FFDE9400876279 /* HoneymoonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA326F8725FFDE9100876279 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FA326F8E25FFDE9100876279 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					FA326FA425FFDE9400876279 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FA326F8E25FFDE9100876279;
+					};
+					FA326FAF25FFDE9400876279 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FA326F8E25FFDE9100876279;
+					};
+				};
+			};
+			buildConfigurationList = FA326F8A25FFDE9100876279 /* Build configuration list for PBXProject "Honeymoon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA326F8625FFDE9100876279;
+			productRefGroup = FA326F9025FFDE9100876279 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA326F8E25FFDE9100876279 /* Honeymoon */,
+				FA326FA425FFDE9400876279 /* HoneymoonTests */,
+				FA326FAF25FFDE9400876279 /* HoneymoonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA326F8D25FFDE9100876279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA326F9F25FFDE9300876279 /* LaunchScreen.storyboard in Resources */,
+				FA326F9C25FFDE9300876279 /* Preview Assets.xcassets in Resources */,
+				FA326F9925FFDE9300876279 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA326FA325FFDE9400876279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA326FAE25FFDE9400876279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA326F8B25FFDE9100876279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA326F9325FFDE9100876279 /* AppDelegate.swift in Sources */,
+				FA326F9525FFDE9100876279 /* SceneDelegate.swift in Sources */,
+				FA326F9725FFDE9100876279 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA326FA125FFDE9400876279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA326FAA25FFDE9400876279 /* HoneymoonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA326FAC25FFDE9400876279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA326FB525FFDE9400876279 /* HoneymoonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA326FA725FFDE9400876279 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA326F8E25FFDE9100876279 /* Honeymoon */;
+			targetProxy = FA326FA625FFDE9400876279 /* PBXContainerItemProxy */;
+		};
+		FA326FB225FFDE9400876279 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA326F8E25FFDE9100876279 /* Honeymoon */;
+			targetProxy = FA326FB125FFDE9400876279 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA326F9D25FFDE9300876279 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA326F9E25FFDE9300876279 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA326FB725FFDE9400876279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA326FB825FFDE9400876279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA326FBA25FFDE9400876279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Honeymoon/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Honeymoon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = samano.Honeymoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA326FBB25FFDE9400876279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Honeymoon/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Honeymoon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = samano.Honeymoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA326FBD25FFDE9400876279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HoneymoonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = samano.HoneymoonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Honeymoon.app/Honeymoon";
+			};
+			name = Debug;
+		};
+		FA326FBE25FFDE9400876279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HoneymoonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = samano.HoneymoonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Honeymoon.app/Honeymoon";
+			};
+			name = Release;
+		};
+		FA326FC025FFDE9400876279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HoneymoonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = samano.HoneymoonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Honeymoon;
+			};
+			name = Debug;
+		};
+		FA326FC125FFDE9400876279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HoneymoonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = samano.HoneymoonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Honeymoon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA326F8A25FFDE9100876279 /* Build configuration list for PBXProject "Honeymoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA326FB725FFDE9400876279 /* Debug */,
+				FA326FB825FFDE9400876279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA326FB925FFDE9400876279 /* Build configuration list for PBXNativeTarget "Honeymoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA326FBA25FFDE9400876279 /* Debug */,
+				FA326FBB25FFDE9400876279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA326FBC25FFDE9400876279 /* Build configuration list for PBXNativeTarget "HoneymoonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA326FBD25FFDE9400876279 /* Debug */,
+				FA326FBE25FFDE9400876279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA326FBF25FFDE9400876279 /* Build configuration list for PBXNativeTarget "HoneymoonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA326FC025FFDE9400876279 /* Debug */,
+				FA326FC125FFDE9400876279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA326F8725FFDE9100876279 /* Project object */;
+}
