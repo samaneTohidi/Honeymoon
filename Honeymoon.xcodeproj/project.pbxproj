@@ -21,6 +21,7 @@
 		FA326FDD25FFE86C00876279 /* HoneymoonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA326FDC25FFE86C00876279 /* HoneymoonData.swift */; };
 		FA326FE625FFE8CF00876279 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA326FE525FFE8CF00876279 /* CardView.swift */; };
 		FA326FEB25FFEAEF00876279 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA326FEA25FFEAEF00876279 /* HeaderView.swift */; };
+		FA326FF0260003A700876279 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA326FEF260003A700876279 /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		FA326FDC25FFE86C00876279 /* HoneymoonData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoneymoonData.swift; sourceTree = "<group>"; };
 		FA326FE525FFE8CF00876279 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		FA326FEA25FFEAEF00876279 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		FA326FEF260003A700876279 /* FooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				FA326FE525FFE8CF00876279 /* CardView.swift */,
+				FA326FEF260003A700876279 /* FooterView.swift */,
 				FA326FEA25FFEAEF00876279 /* HeaderView.swift */,
 				FA326F9625FFDE9100876279 /* ContentView.swift */,
 			);
@@ -323,6 +326,7 @@
 				FA326F9525FFDE9100876279 /* SceneDelegate.swift in Sources */,
 				FA326FDD25FFE86C00876279 /* HoneymoonData.swift in Sources */,
 				FA326FE625FFE8CF00876279 /* CardView.swift in Sources */,
+				FA326FF0260003A700876279 /* FooterView.swift in Sources */,
 				FA326F9725FFDE9100876279 /* ContentView.swift in Sources */,
 				FA326FEB25FFEAEF00876279 /* HeaderView.swift in Sources */,
 			);
