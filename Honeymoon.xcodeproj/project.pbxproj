@@ -29,6 +29,7 @@
 		FA3270072600A5CB00876279 /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3270062600A5CB00876279 /* TitleModifier.swift */; };
 		FA3270102600A76400876279 /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32700F2600A76400876279 /* ButtonModifier.swift */; };
 		FA3270182600C59E00876279 /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3270172600C59E00876279 /* SymbolModifier.swift */; };
+		FA32701E2600D2CE00876279 /* CardTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32701D2600D2CE00876279 /* CardTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		FA3270062600A5CB00876279 /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
 		FA32700F2600A76400876279 /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
 		FA3270172600C59E00876279 /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
+		FA32701D2600D2CE00876279 /* CardTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 		FA326F9125FFDE9100876279 /* Honeymoon */ = {
 			isa = PBXGroup;
 			children = (
+				FA32701C2600D29B00876279 /* Extension */,
 				FA326FC525FFE1E200876279 /* Sound */,
 				FA326FDB25FFE86C00876279 /* Data */,
 				FA326FF4260005E200876279 /* Component */,
@@ -224,6 +227,14 @@
 				FA3270172600C59E00876279 /* SymbolModifier.swift */,
 			);
 			path = Modifier;
+			sourceTree = "<group>";
+		};
+		FA32701C2600D29B00876279 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FA32701D2600D2CE00876279 /* CardTransition.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,6 +373,7 @@
 				FA326F9325FFDE9100876279 /* AppDelegate.swift in Sources */,
 				FA326F9525FFDE9100876279 /* SceneDelegate.swift in Sources */,
 				FA326FDD25FFE86C00876279 /* HoneymoonData.swift in Sources */,
+				FA32701E2600D2CE00876279 /* CardTransition.swift in Sources */,
 				FA3270072600A5CB00876279 /* TitleModifier.swift in Sources */,
 				FA3270022600A52900876279 /* InfoView.swift in Sources */,
 				FA326FE625FFE8CF00876279 /* CardView.swift in Sources */,
