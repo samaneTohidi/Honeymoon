@@ -30,6 +30,9 @@
 		FA3270102600A76400876279 /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32700F2600A76400876279 /* ButtonModifier.swift */; };
 		FA3270182600C59E00876279 /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3270172600C59E00876279 /* SymbolModifier.swift */; };
 		FA32701E2600D2CE00876279 /* CardTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32701D2600D2CE00876279 /* CardTransition.swift */; };
+		FA3270242600D4A100876279 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3270232600D4A100876279 /* PlaySound.swift */; };
+		FA32703E2600D6D200876279 /* sound-click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA32703C2600D6D200876279 /* sound-click.mp3 */; };
+		FA32703F2600D6D200876279 /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA32703D2600D6D200876279 /* sound-rise.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +82,9 @@
 		FA32700F2600A76400876279 /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
 		FA3270172600C59E00876279 /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
 		FA32701D2600D2CE00876279 /* CardTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTransition.swift; sourceTree = "<group>"; };
+		FA3270232600D4A100876279 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		FA32703C2600D6D200876279 /* sound-click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-click.mp3"; sourceTree = "<group>"; };
+		FA32703D2600D6D200876279 /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,15 +135,17 @@
 		FA326F9125FFDE9100876279 /* Honeymoon */ = {
 			isa = PBXGroup;
 			children = (
+				FA3270222600D48800876279 /* Helper */,
 				FA32701C2600D29B00876279 /* Extension */,
 				FA326FC525FFE1E200876279 /* Sound */,
 				FA326FDB25FFE86C00876279 /* Data */,
 				FA326FF4260005E200876279 /* Component */,
+				FA3270432600D6D900876279 /* Sound */,
 				FA326FD525FFE81C00876279 /* Model */,
 				FA32700B2600A67400876279 /* Modifier */,
+				FA326FE125FFE89F00876279 /* View */,
 				FA326F9225FFDE9100876279 /* AppDelegate.swift */,
 				FA326F9425FFDE9100876279 /* SceneDelegate.swift */,
-				FA326FE125FFE89F00876279 /* View */,
 				FA326F9825FFDE9300876279 /* Assets.xcassets */,
 				FA326FD025FFE41700876279 /* LaunchScreen.storyboard */,
 				FA326FA025FFDE9300876279 /* Info.plist */,
@@ -235,6 +243,23 @@
 				FA32701D2600D2CE00876279 /* CardTransition.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		FA3270222600D48800876279 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FA3270232600D4A100876279 /* PlaySound.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FA3270432600D6D900876279 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				FA32703C2600D6D200876279 /* sound-click.mp3 */,
+				FA32703D2600D6D200876279 /* sound-rise.mp3 */,
+			);
+			path = Sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,7 +366,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA326FC925FFE1E200876279 /* sound-click.mp3 in Resources */,
+				FA32703E2600D6D200876279 /* sound-click.mp3 in Resources */,
 				FA326FC825FFE1E200876279 /* sound-rise.mp3 in Resources */,
+				FA32703F2600D6D200876279 /* sound-rise.mp3 in Resources */,
 				FA326F9C25FFDE9300876279 /* Preview Assets.xcassets in Resources */,
 				FA326FD125FFE41700876279 /* LaunchScreen.storyboard in Resources */,
 				FA326F9925FFDE9300876279 /* Assets.xcassets in Resources */,
@@ -385,6 +412,7 @@
 				FA3270182600C59E00876279 /* SymbolModifier.swift in Sources */,
 				FA326FEB25FFEAEF00876279 /* HeaderView.swift in Sources */,
 				FA326FF7260005E200876279 /* GuideComponent.swift in Sources */,
+				FA3270242600D4A100876279 /* PlaySound.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
