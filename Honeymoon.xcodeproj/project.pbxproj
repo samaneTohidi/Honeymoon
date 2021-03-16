@@ -24,6 +24,7 @@
 		FA326FF0260003A700876279 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA326FEF260003A700876279 /* FooterView.swift */; };
 		FA326FF7260005E200876279 /* GuideComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA326FF5260005E200876279 /* GuideComponent.swift */; };
 		FA326FF8260005E200876279 /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA326FF6260005E200876279 /* HeaderComponent.swift */; };
+		FA326FFD2600080400876279 /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA326FFC2600080400876279 /* GuideView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		FA326FEF260003A700876279 /* FooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		FA326FF5260005E200876279 /* GuideComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideComponent.swift; sourceTree = "<group>"; };
 		FA326FF6260005E200876279 /* HeaderComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
+		FA326FFC2600080400876279 /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +192,7 @@
 				FA326FEF260003A700876279 /* FooterView.swift */,
 				FA326FEA25FFEAEF00876279 /* HeaderView.swift */,
 				FA326F9625FFDE9100876279 /* ContentView.swift */,
+				FA326FFC2600080400876279 /* GuideView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 				FA326FF0260003A700876279 /* FooterView.swift in Sources */,
 				FA326FF8260005E200876279 /* HeaderComponent.swift in Sources */,
 				FA326F9725FFDE9100876279 /* ContentView.swift in Sources */,
+				FA326FFD2600080400876279 /* GuideView.swift in Sources */,
 				FA326FEB25FFEAEF00876279 /* HeaderView.swift in Sources */,
 				FA326FF7260005E200876279 /* GuideComponent.swift in Sources */,
 			);
