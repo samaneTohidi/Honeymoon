@@ -20,8 +20,7 @@ struct GuideView: View {
             
             Text("Get Started!")
               .fontWeight(.black)
-                .font(.largeTitle)
-                .foregroundColor(Color.pink)
+                .modifier(TitleModifier())
             
             Text("Discover and pick the perfect destination for your romantic Honeymoon!")
                 
@@ -57,10 +56,7 @@ struct GuideView: View {
              
             }) {
               Text("Continue".uppercased())
-                .padding()
-                .font(.headline)
-                .background(Capsule().fill(Color.pink))
-                .foregroundColor(Color.white)
+                .modifier(ButtonModifier())
                 
             }
           }
