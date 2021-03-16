@@ -28,6 +28,7 @@
 		FA3270022600A52900876279 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3270012600A52900876279 /* InfoView.swift */; };
 		FA3270072600A5CB00876279 /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3270062600A5CB00876279 /* TitleModifier.swift */; };
 		FA3270102600A76400876279 /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32700F2600A76400876279 /* ButtonModifier.swift */; };
+		FA3270182600C59E00876279 /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3270172600C59E00876279 /* SymbolModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		FA3270012600A52900876279 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		FA3270062600A5CB00876279 /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
 		FA32700F2600A76400876279 /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
+		FA3270172600C59E00876279 /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +221,7 @@
 			children = (
 				FA3270062600A5CB00876279 /* TitleModifier.swift */,
 				FA32700F2600A76400876279 /* ButtonModifier.swift */,
+				FA3270172600C59E00876279 /* SymbolModifier.swift */,
 			);
 			path = Modifier;
 			sourceTree = "<group>";
@@ -367,6 +370,7 @@
 				FA326FF8260005E200876279 /* HeaderComponent.swift in Sources */,
 				FA326F9725FFDE9100876279 /* ContentView.swift in Sources */,
 				FA326FFD2600080400876279 /* GuideView.swift in Sources */,
+				FA3270182600C59E00876279 /* SymbolModifier.swift in Sources */,
 				FA326FEB25FFEAEF00876279 /* HeaderView.swift in Sources */,
 				FA326FF7260005E200876279 /* GuideComponent.swift in Sources */,
 			);
